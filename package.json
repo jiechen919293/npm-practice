@@ -1,0 +1,28 @@
+{
+  "name": "npm-practice",
+  "version": "1.0.0",
+  "description": "for npm practice in SKILL class",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dayjs": "^1.10.4",
+    "gulp": "^4.0.2",
+    "pluralize": "^8.0.0",
+    "require": "^2.4.20",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiechen919293/npm-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiechen919293/npm-practice/issues"
+  },
+  "homepage": "https://github.com/jiechen919293/npm-practice#readme"
+}
