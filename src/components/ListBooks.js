@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
+import Bookshelf from "../components/Bookshelf"
 const ListBooks=(props)=> {
     const {listBooks,movingBook}=props
     const shelfList = [
@@ -24,7 +25,7 @@ const ListBooks=(props)=> {
             <div className="list-books-content">
                 <div>
                     {shelfList.map((shelf,index) => (
-                        <BookShelf key={index} shelf={shelf} books={listBooks} onMoveBook={movingBook} />
+                        <Bookshelf key={index} shelf={shelf} books={listBooks} onMoveBook={movingBook} />
                     ))}
                 </div>
             </div>

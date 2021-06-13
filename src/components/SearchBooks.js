@@ -6,6 +6,8 @@ import * as BooksAPI from '../services/BooksAPI'
 
 const SearchBooks = () => {
     const result = 10;
+    const [query,setQuery]=useState('')
+    const [searchList,setSearchList]=useState('')
     const booktest = [{
         "title": "Best Android Apps",
         "subtitle": "The Guide for Discriminating Downloaders",
@@ -223,9 +225,36 @@ const SearchBooks = () => {
             "id": "bUybAgAAQBAJ"
         }];
   const  updateQuery = (e) => {
-        console.log(e.target.value);
-        const query = e.target.value.trim()
+        setQuery (e.target.value.trim()) 
     }
+   const handleKeyPress = (e) => {
+        const key = e.key
+        if (key === 'Enter') {
+            searchBooks(e.target.value)
+        }
+    }
+const searchBooks=(query)=>{
+    console.log(query);
+    if (query.length > 0) {
+        BooksAPI.search(query, result).then(books => {
+            console.log(books);
+            // if (books.length > 0) { 
+            //     const listBooks =
+            //         books
+            //             .map((book) => ({
+            //                 cover: book.imageLinks ? book.imageLinks.thumbnail : `https://books.google.com/googlebooks/images/no_cover_thumb.gif`,
+            //                 title: book.title + (book.subtitle ? `: ${book.subtitle}` : ''),
+            //                 authors: book.authors ? book.authors.join(', ') : '',
+            //                 id: book.id,
+            //                 shelf: queryShelf(book.id) || 'none'
+            //             }))
+            //     setSearchList({ listBooks });
+            // } 
+        })
+    }
+        
+    }
+
     return (
         <div className="search-books">
             <div className="search-books-bar">
@@ -233,7 +262,9 @@ const SearchBooks = () => {
                 <div className="search-books-input-wrapper">
                     <input type="text" 
                     placeholder="Search by title or author" 
-                    onChange={e=>updateQuery}
+                    onChange={updateQuery}
+                    value={query}
+                    onKeyPress={handleKeyPress}
                      />
                 </div>
             </div>
@@ -249,4 +280,5 @@ const SearchBooks = () => {
         </div>
     )
 }
+
 export default SearchBooks
