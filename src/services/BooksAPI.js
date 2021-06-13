@@ -1,36 +1,34 @@
 const baseUrl = 'http://localhost:5001/books';
 
-export const getAll = async() => {
-    const response = await fetch(baseUrl);
-    return await response.json();
-};
 
-export const addRepair = async(repair) => {
-    const response = await fetch(`${baseUrl}`, {
+export const getAll = async() =>
+    fetch(`${baseUrl}`)
+    .then(response => response.json())
+    .then(data => data.books)
+
+export const search = async(query) =>
+    await fetch(`${baseUrl}/search`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify(repair),
-    });
-    return response;
-};
+        body: JSON.stringify({ query })
+    })
+    .then(response => response.json())
+    .then(data => data.books)
 
-export const toggleCompleted = async(repair) => {
-    repair.completed = !repair.completed;
-    const response = await fetch(`${baseUrl}/${repair.id}`, {
+
+export const get = async(bookId) =>
+    fetch(`${baseUrl}/${bookId}`)
+    .then(response => response.json())
+    .then(data => data.book)
+
+export const getUpdate = async(book, shelf) =>
+    fetch(`${baseUrl}/${book.id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify(repair),
-    });
-    return response;
-};
-
-export const deleteRepair = async(id) => {
-    const response = await fetch(`${baseUrl}/${id}`, {
-        method: 'DELETE',
-    });
-    return response;
-};
+        body: JSON.stringify({ shelf }),
+    })
+    .then(response => response.json())
