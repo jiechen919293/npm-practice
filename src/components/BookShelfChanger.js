@@ -5,7 +5,10 @@ const BookShelfChanger = (props) => {
     // console.log(props);
     return (
         <div className='book-shelf-changer'>
-            <select value={currentShelf ? currentShelf : 'none'} onChange={e =>handleMove(e, bookId)} >
+            <select 
+            value={currentShelf ? currentShelf : 'none'} 
+            onChange={e =>handleMove(e, bookId)}
+             >
                 <optgroup label='Move to...'>
                     <option value='currentlyReading'>Currently Reading</option>
                     <option value='wantToRead'>Want to Read</option>

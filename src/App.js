@@ -11,7 +11,7 @@ function App() {
   const [read, setRead] = useState([])
 
 
-//hanle move book
+  //hanle move book
   const handleMove = (e, id) => {
     // console.log(e.target, id, e.target.value)
     const bookShelf = e.target.value
@@ -21,10 +21,10 @@ function App() {
       })
   }
 
-//useEffect
+  //useEffect
   useEffect(() => { updateBooks() }, [])
 
-//update API data
+  //update API data
   const updateBooks = () => {
     BooksAPI.getAll().then(books => {
       const newBooks =
@@ -46,7 +46,7 @@ function App() {
     })
   }
 
-//return and use Router
+  //return and use Router
   return (
     <Router>
       <div className="app">
