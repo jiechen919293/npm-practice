@@ -42,7 +42,8 @@
       "previewLink": "http://books.google.com/books?id=bUybAgAAQBAJ&dq=android&hl=&cd=1&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=bUybAgAAQBAJ&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Best_Android_Apps.html?hl=&id=bUybAgAAQBAJ",
-      "id": "bUybAgAAQBAJ"
+      "id": "bUybAgAAQBAJ",
+      "shelf": "none"
     },
     {
       "title": "The Android Invasion",
@@ -82,7 +83,8 @@
       "previewLink": "http://books.google.com/books?id=tsRhkvo80iUC&q=android&dq=android&hl=&cd=2&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=tsRhkvo80iUC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/The_Android_Invasion.html?hl=&id=tsRhkvo80iUC",
-      "id": "tsRhkvo80iUC"
+      "id": "tsRhkvo80iUC",
+      "shelf": "currentlyReading"
     },
     {
       "title": "Android",
@@ -172,7 +174,7 @@
       "infoLink": "https://play.google.com/store/books/details?id=Ifg1ZpSo7cwC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-Ifg1ZpSo7cwC",
       "id": "Ifg1ZpSo7cwC",
-      "shelf": "currentlyReading"
+      "shelf": "wantToRead"
     },
     {
       "title": "Android Apps Security",
@@ -212,7 +214,8 @@
       "previewLink": "http://books.google.com/books?id=IEk2m00o9_IC&printsec=frontcover&dq=android&hl=&cd=5&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=IEk2m00o9_IC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Android_Apps_Security.html?hl=&id=IEk2m00o9_IC",
-      "id": "IEk2m00o9_IC"
+      "id": "IEk2m00o9_IC",
+      "shelf": "none"
     },
     {
       "title": "Voice Application Development for Android",
@@ -343,7 +346,8 @@
       "previewLink": "http://books.google.com/books?id=QCbUxHcYLskC&printsec=frontcover&dq=android&hl=&cd=8&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=QCbUxHcYLskC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-QCbUxHcYLskC",
-      "id": "QCbUxHcYLskC"
+      "id": "QCbUxHcYLskC",
+      "shelf": "none"
     },
     {
       "title": "Beginning Android 2",
@@ -385,7 +389,8 @@
       "previewLink": "http://books.google.com/books?id=2XeNswkT_2YC&pg=PA180&dq=android&hl=&cd=9&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=2XeNswkT_2YC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Beginning_Android_2.html?hl=&id=2XeNswkT_2YC",
-      "id": "2XeNswkT_2YC"
+      "id": "2XeNswkT_2YC",
+      "shelf": "read"
     },
     {
       "title": "The Android Book",
@@ -557,7 +562,8 @@
       "previewLink": "http://books.google.com/books?id=MoXpe6H2B5gC&dq=android&hl=&cd=13&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=MoXpe6H2B5gC&dq=android&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Android_in_The_Attic.html?hl=&id=MoXpe6H2B5gC",
-      "id": "MoXpe6H2B5gC"
+      "id": "MoXpe6H2B5gC",
+      "shelf": "wantToRead"
     },
     {
       "title": "Android Application Development All-in-One For Dummies",
@@ -637,7 +643,8 @@
       "previewLink": "http://books.google.com/books?id=0ks5ZV8fyzwC&printsec=frontcover&dq=android&hl=&cd=15&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=0ks5ZV8fyzwC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-0ks5ZV8fyzwC",
-      "id": "0ks5ZV8fyzwC"
+      "id": "0ks5ZV8fyzwC",
+      "shelf": "read"
     },
     {
       "title": "HTML5 for iOS and Android: A Beginner's Guide",
@@ -1363,7 +1370,8 @@
       "previewLink": "http://books.google.com/books?id=yL3RBMEI5OgC&printsec=frontcover&dq=biography&hl=&cd=12&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=yL3RBMEI5OgC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-yL3RBMEI5OgC",
-      "id": "yL3RBMEI5OgC"
+      "id": "yL3RBMEI5OgC",
+      "shelf": "none"
     },
     {
       "title": "The Art of Biography in Antiquity",
@@ -1444,7 +1452,8 @@
       "previewLink": "http://books.google.com/books?id=y53j4MKTausC&printsec=frontcover&dq=biography&hl=&cd=14&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=y53j4MKTausC&dq=biography&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Samuel_Beckett.html?hl=&id=y53j4MKTausC",
-      "id": "y53j4MKTausC"
+      "id": "y53j4MKTausC",
+      "shelf": "none"
     },
     {
       "title": "Giacometti",
@@ -1489,7 +1498,8 @@
       "previewLink": "http://books.google.com/books?id=itCCmH71btQC&printsec=frontcover&dq=biography&hl=&cd=15&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=itCCmH71btQC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-itCCmH71btQC",
-      "id": "itCCmH71btQC"
+      "id": "itCCmH71btQC",
+      "shelf": "currentlyReading"
     },
     {
       "title": "Stalin",
@@ -2303,7 +2313,8 @@
       "previewLink": "http://books.google.com/books?id=Ikva_afQXWMC&printsec=frontcover&dq=comics&hl=&cd=14&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=Ikva_afQXWMC&dq=comics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/100_Sexiest_Women_in_Comics.html?hl=&id=Ikva_afQXWMC",
-      "id": "Ikva_afQXWMC"
+      "id": "Ikva_afQXWMC",
+      "shelf": "none"
     },
     {
       "title": "The System of Comics",
@@ -2571,7 +2582,8 @@
       "previewLink": "http://books.google.com/books?id=jqcFAAAACAAJ&dq=comics&hl=&cd=20&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=jqcFAAAACAAJ&dq=comics&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Batman_and_Captain_America.html?hl=&id=jqcFAAAACAAJ",
-      "id": "jqcFAAAACAAJ"
+      "id": "jqcFAAAACAAJ",
+      "shelf": "wantToRead"
     },
     {
       "title": "Drama",
@@ -3611,7 +3623,8 @@
       "previewLink": "http://books.google.com/books?id=OOTz-AXfk0kC&printsec=frontcover&dq=education&hl=&cd=5&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=OOTz-AXfk0kC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-OOTz-AXfk0kC",
-      "id": "OOTz-AXfk0kC"
+      "id": "OOTz-AXfk0kC",
+      "shelf": "none"
     },
     {
       "title": "On Education",
@@ -4718,7 +4731,8 @@
       "previewLink": "http://books.google.com/books?id=ITrxosiRNTkC&printsec=frontcover&dq=fitness&hl=&cd=11&source=gbs_api",
       "infoLink": "http://books.google.com/books?id=ITrxosiRNTkC&dq=fitness&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Luminous_Mind.html?hl=&id=ITrxosiRNTkC",
-      "id": "ITrxosiRNTkC"
+      "id": "ITrxosiRNTkC",
+      "shelf": "none"
     },
     {
       "title": "Physical Fitness",
@@ -17558,7 +17572,8 @@
       "previewLink": "http://books.google.com/books?id=sZYJ0zhgn-wC&printsec=frontcover&dq=web+development&hl=&cd=17&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=sZYJ0zhgn-wC&source=gbs_api",
       "canonicalVolumeLink": "https://market.android.com/details?id=book-sZYJ0zhgn-wC",
-      "id": "sZYJ0zhgn-wC"
+      "id": "sZYJ0zhgn-wC",
+      "shelf": "read"
     },
     {
       "title": "Open Source Web Development with LAMP",
